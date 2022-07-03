@@ -118,3 +118,9 @@ Options:
 [root@iZ8vbfaek3x3ogtpxnpnwfZ /]#
 
 ```
+
+启动docker.server服务端
+> systemctl enable docker.server
+
+设置开机启动
+> systemctl enable docker
